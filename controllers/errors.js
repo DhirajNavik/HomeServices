@@ -1,4 +1,4 @@
-import CustomError from "../utils/CustomError.js";
+import CustomError from "../utils/customError.js";
 
 const handleValidationError = (err) => {
     const errors = Object.values(err.errors).map(el => el.message);
