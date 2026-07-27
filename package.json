@@ -5,7 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "set NODE_ENV=production&& nodemon server.js",
+    "start": "node server.js",
+    "dev": "set NODE_ENV=production&& nodemon server.js",
     "test": "set NODE_ENV=development&& nodemon server.js"
   },
   "author": "DhirajNavik",
