@@ -1,8 +1,8 @@
 import express from "express"
 import customError from "./utils/customError.js"
-import categoryRoutes from "./Routes/category.js"
-import serviceRoutes from "./Routes/service.js"
-import bookingRoutes from "./Routes/booking.js"
+import categoryRoutes from "./routes/category.js"
+import serviceRoutes from "./routes/service.js"
+import bookingRoutes from "./routes/booking.js"
 import globalErrorHandler from "./controllers/errors.js"
 
 const app = express();
